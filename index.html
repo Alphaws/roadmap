@@ -1,20 +1,97 @@
-<html>
+
+<!DOCTYPE html>
+<!-- Modernized HTML Document -->
+
+<html lang="en" class="modern-html">
 <head>
-    <title>Your Name - Junior Frontend Developer</title>
+    <title>Imre Szeness - Full Stack Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .main-title {
+            font-size: 2.5em;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        .section-title {
+            font-size: 1.8em;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .project-list {
+            list-style: none;
+            padding: 0;
+        }
+        .project-list li {
+            margin-bottom: 8px;
+        }
+        .project-link {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: 500;
+        }
+        .project-link:hover {
+            text-decoration: underline;
+        }
+        .back-to-home {
+            display: inline-block;
+            margin-top: 20px;
+            font-weight: 600;
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .back-to-home:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            margin-top: 20px;
+            padding-top: 10px;
+            font-size: 0.9em;
+            text-align: center;
+            color: #666;
+        }
+    </style>
 </head>
 <body>
-    <div>
-        <h1>Roadmap</h1>
+    <div class="container">
 
-        <h2>Frontend Projects</h2>
-        <a href="https://roadmap.sh/frontend/projects">View all projects</a>
-        <ul>
-            <li><a href="01-single_page_cv/index.html">01 - Single Page CV </a> <a href="https://roadmap.sh/projects/single-page-cv/solutions?u=676747a070129741a87d3be4"></a></li>
-            <li><a href="02-basic_html_website/index.html">02 - Basic HTML Website </a></li>
+        <h1 class="main-title">Roadmap</h1>
+
+        <h2 class="section-title">Frontend Projects</h2>
+        <a href="https://roadmap.sh/frontend/projects" target="_blank">View all projects</a>
+        <ul class="project-list">
+
+            <li><a href="01-single_page_cv/index.html" class="project-link">01 - Single Page CV</a></li>
+
+            <li><a href="02-basic_html_website/index.html" class="project-link">02 - Basic HTML Website</a></li>
+
+
+
+            <li><a href="24-24hr_story_feature/index.html" class="project-link">24 - 24hr Story Feature</a></li>
 
 
         </ul>
+        <a href="https://roadmap.sh" class="back-to-home">Back to Roadmap.sh</a>
     </div>
+    <footer class="footer">
+        <p>© 2024 Roadmap Projects by Alphaws (alphaws@gmail.com). All rights reserved.</p>
+    </footer>
 </body>
 </html>
